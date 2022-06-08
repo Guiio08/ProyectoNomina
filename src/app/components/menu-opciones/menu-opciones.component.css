@@ -1,0 +1,13 @@
+img {
+    width: 50px;
+}
+
+.card-estilo {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border: none;
+    color: ffffff;
+    font-weight: bold;
+}

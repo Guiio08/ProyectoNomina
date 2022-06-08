@@ -1,0 +1,23 @@
+<div class="body_principal">
+    <div class=" centrar">
+
+        <div class="contenedor">
+            <div class="login">
+
+                <h2 class="login-titulo">Bienvenido</h2>
+                <h2 class="login-titulo">{{loginMensaje}}</h2>
+                <div class="login-imagen">
+                    <img src="../../../assets/img/singIn.png" alt="login">
+                </div>
+                <form [formGroup]="form" (ngSubmit)="ingresoUsuario()">
+                    <div class="login-formulario">
+                        <input formControlName="usuario" class="login-formulario__inputUsuario" name="usuario" type="text" placeholder="Usuario">
+                        <input formControlName="contrasena" class="login-formulario__inputPassword" name="password" type="password" placeholder="Contraseña">
+                    </div>
+                    <button (click)="menuOpciones()" [disabled]="this.form.invalid" type="submit" class="login-boton" href="#">Ingresar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

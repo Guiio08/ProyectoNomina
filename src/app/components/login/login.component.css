@@ -1,51 +1,49 @@
-.body_principal {
-    background-image: url(../assets/img/fondoPrincipal.jpg);
+
+.body_principal{
+    background-image: url(../../../assets/img/fondoPrincipal.jpg);
     display: flex;
     justify-content: center;
-    font-size: 1.6rem;
 }
 
-.contenedor {
+.contenedor{
     margin-top: 80px;
     width: 250px;
     border: 1px solid var(--azul);
     border-radius: 5px;
-    box-shadow: 7px 7px 15px var(--azul);
+    box-shadow: 7px 7px 15px var(--azul); 
 }
 
-.centrar {
+.centrar{
     text-align: center;
-    display: flex;
-    align-items: center;
 }
 
-.login {
+.login{
     width: 100%;
-    padding: 20px;
+    padding: 20px; 
 }
 
-.login-imagen {
+.login-imagen{
     height: 100px;
-    text-align: center;
+    text-align: center ;
 }
 
-.login-imagen img {
+.login-imagen img{
     max-width: 100%;
     max-height: 100%;
 }
 
-.login-titulo {
+.login-titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #ffffff;
 }
 
-.login-formulario {
+.login-formulario{
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 2rem;   
 }
 
 .login-formulario__inputUsuario {
@@ -61,7 +59,7 @@
     text-align: center;
 }
 
-.login-formulario__inputPassword {
+.login-formulario__inputPassword{
     color: #ffffff;
     font-weight: bold;
     height: 30px;
@@ -74,18 +72,18 @@
     margin-bottom: 40px;
 }
 
-.login-formulario__inputUsuario::placeholder {
+.login-formulario__inputUsuario::placeholder{
     max-width: 100%;
-    background-image: url(../assets/img/userBlanco.png);
+    background-image: url(../../../assets/img/userBlanco.png);
     font-family: var(--fuentePrincipal);
     color: #e1e1e1;
     background-size: 15px 15px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     background-position: left center;
 }
 
-.login-formulario__inputPassword::placeholder {
-    background-image: url(../assets/img/password.png);
+.login-formulario__inputPassword::placeholder{
+    background-image: url(../../../assets/img/password.png);
     font-family: var(--fuentePrincipal);
     color: #e1e1e1;
     background-size: 15px 15px;
@@ -94,11 +92,11 @@
 }
 
 .login-formulario__inputUsuario:focus,
-.login-formulario__inputPassword:focus {
-    outline: none;
+.login-formulario__inputPassword:focus{
+   outline: none;
 }
 
-.login-boton {
+.login-boton{
     color: var(--azul);
     display: inline-block;
     font-size: 15px;
@@ -112,7 +110,7 @@
     margin-bottom: 4rem;
 }
 
-.login-boton:hover {
+.login-boton:hover{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;

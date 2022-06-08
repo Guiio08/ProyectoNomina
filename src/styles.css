@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url(assets/img/fondoPrincipal.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.container_principal {
+    width: 700px;
+    padding: 30px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+label {
+    color: ffffff;
+}
+
+div a {
+    text-decoration: none;
+}
